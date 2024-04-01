@@ -1,0 +1,12 @@
+{
+  "servers": {
+	"neva":{
+	  "command": ["neva-lsp"],
+	  "url": "https://nevalang.org/",
+	  "highlightingModeRegex": "^Neva$",
+	  "documentTypes": [
+		"*.neva"
+	  ]
+	}
+  }
+}

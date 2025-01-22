@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cmd/lsp/server" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="neva" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="-debug true" />
+    <kind value="PACKAGE" />
+    <package value="github.com/nevalang/neva/cmd/lsp" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/cmd/lsp/main.go" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -91,7 +91,7 @@ type DefaultStringer string
 func (ds DefaultStringer) String() string { return string(ds) }
 
 func (h Helper) Trace(ss ...string) Trace {
-	var t *Trace
+	t := new(Trace)
 	for _, s := range ss {
 		tmp := NewTrace(t, core.EntityRef{Name: s})
 		t = &tmp

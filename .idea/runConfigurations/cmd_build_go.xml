@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cmd/build/go" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="neva" />
+    <working_directory value="$PROJECT_DIR$/../learn-neva" />
+    <parameters value="build src" />
+    <kind value="PACKAGE" />
+    <package value="github.com/nevalang/neva/cmd/neva" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/cmd/neva/main.go" />
+    <pty_enabled value="true" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="清理锁" run_configuration_type="ShConfigurationType" />
+    </method>
+  </configuration>
+</component>

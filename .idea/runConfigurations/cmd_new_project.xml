@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cmd/new-project" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="neva" />
+    <working_directory value="$USER_HOME$/AppData/Local/Temp/nevatest" />
+    <parameters value="new testproject --template empty" />
+    <kind value="PACKAGE" />
+    <package value="github.com/nevalang/neva/cmd/neva" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <pty_enabled value="true" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="清理产生的项目" run_configuration_type="ShConfigurationType" />
+    </method>
+  </configuration>
+</component>
